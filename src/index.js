@@ -18,4 +18,5 @@ const ticketData = [
     },
 ];
 
-const { success } = ticketService.purchaseTickets(accountId, ...ticketData);
+const success = ticketService.purchaseTickets(accountId, ...ticketData);
+console.log(success);

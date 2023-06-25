@@ -34,7 +34,7 @@ To run the app, use the following command:
 node src/index.js
 ```
 
-Returns 'success' if the ticket data is valid.
+Returns 'success: true' if the ticket data is valid.
 
 ## Running Tests
 
